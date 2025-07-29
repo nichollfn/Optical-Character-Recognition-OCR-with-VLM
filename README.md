@@ -25,7 +25,8 @@ Visual Language Model (VLM) adalah model AI multimodal yang dapat memahami input
 6. Hasil disimpan ke dalam file `results.csv`.
 
 ## Rumus 
-CER = (S + D + I) / N
+1. CER = (S + D + I) / N
+
 S: Substitusi karakter salah
 D: Karakter yang dihapus (Deletion)
 I: Karakter yang ditambahkan (Insertion)
