@@ -24,18 +24,20 @@ Visual Language Model (VLM) adalah model AI multimodal yang dapat memahami input
 5. Program menghitung **Character Error Rate (CER)** berdasarkan label ground truth.
 6. Hasil disimpan ke dalam file `results.csv`.
 
-## Format Output (results.csv)
-
-csv
-image,ground_truth,prediction,CER_score
-image001.jpg,B1234XYZ,B1234XY2,0.125
-
-## umus 
+## Rumus 
 CER = (S + D + I) / N
 S: Substitusi karakter salah
 D: Karakter yang dihapus (Deletion)
 I: Karakter yang ditambahkan (Insertion)
 N: Jumlah karakter pada ground truth
+
+
+## Format Output (results.csv)
+
+```csv
+image,ground_truth,prediction,CER_score
+image001.jpg,B1234XYZ,B1234XY2,0.125
+
 
 
 
