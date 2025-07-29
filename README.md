@@ -26,7 +26,7 @@ Visual Language Model (VLM) adalah model AI multimodal yang dapat memahami input
 
 ## Format Output (results.csv)
 
-## csv
+csv
 image,ground_truth,prediction,CER_score
 image001.jpg,B1234XYZ,B1234XY2,0.125
 
